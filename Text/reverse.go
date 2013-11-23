@@ -6,16 +6,21 @@ import (
 	"os"
 )
 
+func reverseString(s string) string {
+	r := []rune(s)
+	l := len(r)
+	for i := 0; i < l/2; i++ {
+		j := l - i - 1
+		r[i], r[j] = r[j], r[i]
+	}
+	return string(r)
+}
+
 func main() {
 	fmt.Println("Input some random strings:")
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
-	s := []rune(scanner.Text())
+	s := scanner.Text()
 
-	for i := 0; i < len(s)/2; i++ {
-		j := len(s) - i - 1
-		s[i], s[j] = s[j], s[i]
-	}
-
-	fmt.Println(string(s))
+	fmt.Println(reverseString(s))
 }
