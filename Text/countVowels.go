@@ -14,8 +14,8 @@ func main() {
 
 	vowels := map[rune]int{'a': 0, 'e': 0, 'i': 0, 'o': 0, 'u': 0}
 
-	s := scanner.Text()
-	for _, c := range strings.ToLower(s) {
+	s := strings.ToLower(scanner.Text())
+	for _, c := range s {
 		if _, ok := vowels[c]; ok {
 			vowels[c]++
 		}
