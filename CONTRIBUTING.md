@@ -3,25 +3,7 @@ How to Contribute
 
 ## Solutions
 
-Please **do not send pull requests for replacing my code**. If you'd like to contribute [solutions](https://github.com/thekarangoel/Projects-Solutions), please see the following instructions:
-
-- Solve the problem, and keep it in your repo. DO NOT send merge request yet.
-
-- Find the problem in this [README](https://github.com/thekarangoel/Projects-Solutions/blob/master/README.md) file.
-
-- Edit the file in this format (notice the double square brackets):
-
-    \**This is a problem** - And here goes it's description. \[[octocat (language)]]\(link-to-octocats-solution) \[[your_username (C++)]]\(link-to-your-solution)
-    
-    This results in something like this:
-    
-    **This is a problem** - And here goes it's description. [[octocat (language)]](link-to-octocats-solution) [[your_username (C++)]](link-to-your-solution)
-
-- Please respect other people and do not delete or move anyone else's link. Place your solution at the end of the list of solutions.
-
-- Save/Commit the README.md file.
-
-- Send a pull request for this commit ONLY - ie, the commit to the [solutions repo](https://github.com/thekarangoel/Projects-Solutions)!
+Please do send pull requests for replacing my code.
 
 =====================================
 

@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+// www.youtube.com/watch?v=XCsL89YtqCs
 func reverseString(s string) string {
 	r := []rune(s)
 	l := len(r)
