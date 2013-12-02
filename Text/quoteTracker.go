@@ -13,7 +13,7 @@ import (
 
 const (
 	// MT4 server
-	host string = "207.228.252.22:443"
+	host string = ""
 )
 
 func printQuotes(symbols []string) {
